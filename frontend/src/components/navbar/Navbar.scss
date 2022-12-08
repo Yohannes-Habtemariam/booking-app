@@ -1,0 +1,33 @@
+@import "../../styles/Variables.scss";
+
+.navbar {
+    background-color: $header;
+    color: $header-color;
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .navigation-item {
+                padding: 0 1rem;
+                list-style: none;
+
+                & a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+
+        .regiter-login-container a {
+           padding: 0.2rem 0.5rem;
+           color: $header-color;
+        }
+    }
+}
